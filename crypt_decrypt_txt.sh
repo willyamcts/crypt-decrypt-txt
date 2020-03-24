@@ -102,8 +102,8 @@ $0 1
 			esac
 				;;
 
-	3) exit;;
+	2) exit;;
 		
 	*) printf "\033[1;31m \n\t\tValor inválido...\n\n \033[0m"
-		exit
+	
 esac
