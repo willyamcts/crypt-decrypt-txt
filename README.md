@@ -9,3 +9,5 @@ Ao inicializar, o programa deve solicitar a geração das chaves de criptografia
 O programa deverá pedir a ação a ser efetuada (criptografia/descriptografia). Deve em seguida, solicitar a localização do arquivo original (deve ser um arquivo .txt). Após isso, deve gravar o arquivo criptografado com uma extensão .crypt. Deve ser possível descriptografar um arquivo, retornando o mesmo a sua forma original.
 
 Definição de OK: Deve ser possível criptografar/descriptografar um arquivo TXT.
+
+Alunos: Alex Freitag, Sahra Flôhr e Willyam Castro
