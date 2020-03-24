@@ -11,7 +11,7 @@ ext='.crypt'
 
 [ "$1" == 1 ] && echo && echo || clear
 
-echo -en "\033[1;34m\n[0] Gerar chaves \n[1] Crypt or Decrypt : \033[0m"
+echo -en "\033[1;34m\n[0] Gerar chaves \n[1] Crypt or Decrypt : \n[2] Sair\033[0m"
 read ANSWER
 
 clear
@@ -101,6 +101,8 @@ $0 1
 			*) printf "\033[1;31m \t\tValor inválido...\n \033[0m"
 			esac
 				;;
+
+	3) exit;
 		
 	*) printf "\033[1;31m \n\t\tValor inválido...\n\n \033[0m"
 		exit
